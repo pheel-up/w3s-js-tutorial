@@ -1,5 +1,4 @@
-<!--  Scans entire document to getElement with id=demo and changes its innerHTML
-      to Hello JavaScript -->
+
 
 <!DOCTYPE html>
 <html>
@@ -9,6 +8,9 @@
 
   <p id="demo">JavaScript can change HTML content.</p>
 
+<!--  Scans entire document to getElement with id=demo and changes its innerHTML
+      to Hello JavaScript -->
+
   <button type="button"
   onclick="documen.getElementById('demo').innerHTML =
   'Hello JavaScript!'">Click Me!</button>
@@ -17,8 +19,52 @@
 
   <p>In this case JavaScript changes the src (source) attribute of an image.</p>
 
+<!--  Scans entire document to getElement with id=myImage and makes its src=
+      pic_bulbon.gif -->
+
   <button
-  onclick="document.get"
+  onclick="document.getElementById('myImage').src='img/pic_bulbon.gif'">Turn on
+  the light</button>
+
+<!--  Scans entire document to getElement with id=myImage and makes its src=
+      pic_bulboff.gif -->
+
+  <img id="myImage" src="img/pic_bulboff.gif" style="width:100px">
+
+  <button
+  onclick="document.getElementById('myImage').src='img/pic_bulboff.gif'">Turn the
+  light off</button>
+
+  <p id="demo1">JavaScript can change the style of an HTML element.</p>
+
+<!--  Scans entire document to getElement with id=demo1 and makes its style.
+      fontsize= "45px"  -->
+
+  <button type="button"
+  onclick="document.getElementById('demo1').style.fontSize='45px'">
+  Click Me!</button>
+
+  <p id="demo2">JavaScript can HTML elements.</p>
+
+<!--  Scans entire document to getElement with id=demo2 and makes its style.
+      display="none"  -->
+
+  <p><button type="button"
+  onclick="document.getElementById('demo2').style.display='none'">
+  Click Me!</button></p>
+
+  <p>JavaScript can show hidden HTML elements.</p>
+
+  <p id="demo3" style="display:none">
+    Hello JavaScript!
+  </p>
+
+<!--  Scans entire document to getElement with id=demo3 and makes its style.
+      display="block"  -->
+
+  <button type="button"
+  onclick="document.getElementById('demo3').style.display='block'">
+  Click Me!</button>
 
 </body>
 </html>

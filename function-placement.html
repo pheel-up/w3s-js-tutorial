@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Function Placement in HTML</title>
+<script src="js/script-extrnl.js"></script>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+</head>
+
+<body>
+
+  <h1>My Web Page</h1>
+
+  <p id="demo">
+    A Paragraph
+  </p>
+
+  <button type="button" onclick="myFunction()">Try it</button>
+
+  <p id="demo1">
+    Another Paragraph
+  </p>
+
+  <button type="button" onclick="myFunction1()">Try it again</button>
+
+  <h1>External JavaScript</h1>
+
+  <p id="demo2">One more Paragraph.</p>
+
+  <button type="button" onclick="myFunction2()">Try it once more</button>
+
+  <p><strong>Note:</strong> myFunction is stored in an external file called
+    "js/script-extrnl.js".</p>
+
+  <script>
+  function myFunction1() {
+    document.getElementById("demo1").innerHTML = "Paragraph changed again.";
+  }
+  </script>
+
+</body>
+</html>
