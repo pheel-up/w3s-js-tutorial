@@ -1,6 +1,44 @@
 JS = ECMA-262
 latest --version = ECMAScript 6
 
-
 document.getElementById("elementId").innerHTML = "What to change innerHTML to.";
   -find element with matching "" Id and change innerHTML to = ""
+
+for external js files to be recognized <script src="relative/path/to/jsfile.js"
+  ></script>
+
+window.alert(5 + 6 or var); displays 11 in alert window
+
+document.write(5 + 6 or var); creates entire HTML doc with only 11 displayed
+
+document.getElementById("demo").innerHTML = 5 + 6 replaces element defined by id
+  attribute=demo and replaces it with 11
+
+console.log(5 + 6); displays 11 in browser console
+
+JS statements are composed of:
+  --Values:
+    -Fixed values are literals
+    -Variable values are called variables
+      +Store data values
+      +var keyword to declare variables
+      +An = sign is used to assign values to variables
+      +var x;
+       x = 6;
+  --Operators:
+    -(= + - * /)
+  --Expressions:
+    -Combination of values, variables, and operators, which computes to a value.
+    -Computation = evaluates
+  --Keywords:
+    -Identify actions to be performed
+  --Comments
+    -Code after // or /*""*/ is a comment and not executed
+  --Identifiers
+    -First character must be a letter, an underscore, or a $
+    -Subsequent letters may be letters, digits, underscores or $
+
+In HTML, JS statements are instructions to be executed by the web browser.
+
+JS code blocks are inside {...}.  Code blocks define statements that are to be
+  executed together.
