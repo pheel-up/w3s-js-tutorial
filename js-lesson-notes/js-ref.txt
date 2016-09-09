@@ -1,0 +1,6 @@
+JS = ECMA-262
+latest --version = ECMAScript 6
+
+
+document.getElementById("elementId").innerHTML = "What to change innerHTML to.";
+  -find element with matching "" Id and change innerHTML to = ""
