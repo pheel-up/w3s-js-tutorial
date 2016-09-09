@@ -2,12 +2,16 @@
 My work on the w3scools.com JavaScript Tutorial
 
   --Demonstrates skill with:
+  
     --JS HTML method getElementById()
+    
     --JS function syntax and external JavaScript
       file use.
+    
     --JS data display options:
       -window.alert()
       -document.write()
       -innerHTML
       -console.log()
+    
     --JS statement syntax
